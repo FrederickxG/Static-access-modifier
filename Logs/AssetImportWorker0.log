@@ -475,3 +475,4 @@ Received Import Request.
 Start importing Assets/Scripts/ScoreDisplay.cs using Guid(adeb24698b0514b5a9f1e0bdbb10680f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f79586c1f84e0939360537504c059ba') in 0.004842 seconds 
   Import took 0.006748 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
