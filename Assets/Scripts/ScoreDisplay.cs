@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ScoreDisplay : MonoBehaviour
 {
-    public Text scoreText;
+ 
+public Text scoreText;
 
-    private void Update()
-    {
-        // Update the displayed score with the value from the GameManager.
-        scoreText.text = "Score: " + GameManager.playerScore.ToString();
-    }
+   private void Update()
+   {
+       // Update the displayed score with the value from the GameManager.
+       scoreText.text = "Score" + GameManager.playerScore.ToString();
+       }
 }
